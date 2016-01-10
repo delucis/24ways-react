@@ -1,6 +1,17 @@
 import express from 'express';
 import http from 'http';
 
+const routes = {
+  path: '',
+  component: AppComponent,
+  childRoutes: [
+    {
+      path: '/',
+      component: IndexComponent
+    }
+  ]
+}
+
 const app = express();
 
 app.use(express.static('public'));
