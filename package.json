@@ -1,13 +1,13 @@
 {
   "name": "24ways-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test repository for Jack Franklin’s Universal React post.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Chris Swithinbank",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.3.4",
